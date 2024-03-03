@@ -10,7 +10,6 @@ header{
     border:1px;
     border-style:solid;
     border-color:#555555;
-    width:100%;
     margin:0px;
     margin-bottom:10px;
     top:0px;
@@ -20,6 +19,7 @@ header{
     padding-left:0px;
     padding-right:0px;
     overflow:auto;
+    width:100%;
   }
   h2{
     font-family:Georgia, 'Times New Roman', Times, serif;
@@ -61,15 +61,17 @@ header{
   }
   .sitecontentwrapper{
     display:grid;
-    grid-template-columns: 10px max-content auto auto auto; 
+    grid-template-columns: 20px auto auto auto auto; 
     grid-template-rows:auto auto auto auto;
-    gap:10px;
+    gap:30px;
   }
-  .tableopener{
+  .tableinfo{
     color:#4100FA;
     grid-row:1;
     grid-column:2;
     text-align:left;
+    padding:10px;
+    line-height:2;
   }
   .brandtable{
     font-size:larger;
@@ -94,9 +96,54 @@ table,th,td{
   background-color:#9200FA;
   color:#fafafa;
   padding:20px;
-  grid-row: 3;
-  grid-column: 2;
+  display:block;
   width:140px;
   text-align:center;
   border-radius:50%;
+  margin-top:5px;
+}
+.missionstatement{
+  grid-column:3 / 4;
+  grid-row:1;
+  width:600px;
+  border-style:solid;
+  border-color:#535EFA;
+  border-width:2px;
+  background-color: #3c3c3c;
+  padding:10px;
+  color:#535EFA;
+  padding-top:0px;
+}
+.seemore{
+  background-color:#9200FA;
+  color:#fafafa;
+  padding:20px;
+  width:60px;
+  height:40px;
+  text-align:center;
+  border-radius:50%;
+  grid-column:4;
+  grid-row:1;
+}
+.kclocations{
+  grid-column:3 / 5;
+  grid-row:2;
+}
+.map{
+  width:725px;
+  height:500px;
+  border-style:solid;
+  border-color:#555555;
+  border-width:3px;
+}
+.seemap{
+  background-color:#9200FA;
+  color:#fafafa;
+  padding:20px;
+  width:100px;
+  height:auto;
+  text-align:center;
+  border-radius:50%;
+  display:block;
+  margin-top:5px;
 }
