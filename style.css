@@ -14,7 +14,10 @@ header{
     margin-bottom:10px;
     top:0px;
     display:inline-block;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  /* Font embed code fromhttps://fonts.google.com/selection/embed */
     padding:0.25em;
     padding-left:0px;
     padding-right:0px;
@@ -22,10 +25,14 @@ header{
     width:100%;
   }
   h2{
-    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-style: normal;
   }
   h3{
-    font-family:Arial, Helvetica, sans-serif;
+    font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-style: normal;
   }
   .CompanyName{
     display:flex;
