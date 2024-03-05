@@ -25,7 +25,7 @@ header{
     font-family:Georgia, 'Times New Roman', Times, serif;
   }
   h3{
-    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-family:Arial, Helvetica, sans-serif;
   }
   .CompanyName{
     display:flex;
@@ -38,25 +38,25 @@ header{
     justify-content:space-evenly;
   }
   .kimberlyclarklogo{
-    width:25em;
-    height:3em;
+    width:600px;
+    height:80px;
     margin-left:5px;
   }
   .searchform{
-    width:20em;
-    height:3em;
+    width:300px;
+    height:50px;
     margin:10px;
   }
   input:focus{
     background-color:grey;
   }
-  a{
+  a.pagelinks{
     color:#fafafa;
   }
-  a:link{
+  a.pagelinks:link{
     text-decoration:none;
   }
-  a:hover{
+  a.pagelinks:hover{
     color:#8200F0;
   }
   .sitecontentwrapper{
@@ -64,6 +64,7 @@ header{
     grid-template-columns: 20px auto auto auto auto; 
     grid-template-rows:auto auto auto auto;
     gap:30px;
+    /* overflow:auto; */
   }
   .tableinfo{
     color:#4100FA;
@@ -77,8 +78,8 @@ header{
     font-size:larger;
     color:#4100FA;
     margin:0;
-    grid-column: 2;
-    grid-row: 2;
+    grid-column:2;
+    grid-row:2;
 }
 table,th,td{
     border:3px solid;
@@ -87,6 +88,7 @@ table,th,td{
     padding:10px;
     font-family:Arial, Helvetica, sans-serif;
     text-align:center;
+    background-color:#acacac;
 }
 .tableimage{
   width:400px;
@@ -114,7 +116,7 @@ table,th,td{
   color:#535EFA;
   padding-top:0px;
 }
-.seemore{
+.learnmore{
   background-color:#9200FA;
   color:#fafafa;
   padding:20px;
@@ -177,4 +179,66 @@ table,th,td{
 .newsdescription{
   display:block;
   padding-top:5px;
+}
+.careerinfo{
+  padding:20px;
+  grid-row:3;
+  grid-column:3 / 5;
+  width:650px;
+  height:590px;
+  background-image: url(ScientistWorking.png);
+  border-style:solid;
+  border-color:#4100FA;
+  border-width:3px;
+}
+.viewall{
+  display:block;
+  background-color:#9200FA;
+  color:#fafafa;
+  padding:20px;
+  width:100px;
+  height:auto;
+  text-align:center;
+  border-radius:50%;
+  grid-row:4;
+  grid-column:2;
+}
+.explore{
+  display:block;
+  background-color:#9200FA;
+  color:#fafafa;
+  padding:20px;
+  width:200px;
+  height:auto;
+  text-align:center;
+  border-radius:50%;
+  grid-row:4;
+  grid-column:3 / 5;
+}
+footer{
+  display:grid;
+  grid-template-columns:300px auto auto auto;
+  color:#0113FA;
+  gap:10px;
+}
+.firstfooter{
+  width:auto;
+  grid-column:2;
+}
+.secondfooter{
+  width:auto;
+  grid-column:3;
+}
+.thirdfooter{
+  width:auto;
+  grid-column:4;
+}
+.footerlines{
+  display:block;
+}
+.logo{
+  width:50px;
+  height:50px;
+  margin:10px;
+  margin-left:8px;
 }
