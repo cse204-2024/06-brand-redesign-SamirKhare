@@ -208,6 +208,7 @@ table{
   width:80%;
   height:97%;
   background-image: url(Images/ScientistWorking.png);
+  background-size:cover;
   border-style:solid;
   border-color:#4100FA;
   border-width:3px;
